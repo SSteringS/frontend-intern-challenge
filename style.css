@@ -30,21 +30,22 @@ p {
 }
 
 .image {
-    width:200px;
-    height: 150px;
+    width: 65%;
+    height: 80%;
+    margin-top: 15px;
 }
 
 .show-case{
-    width: 931px;
-    height: 740px;
-    padding: 42px;
+    width: 935px;
+    height: 770px;
+    padding: 55px;
 }
 
 .name-product{
     font-size: 14px;
     color: #888888;
     text-align: left;
-    margin-top: 14px;
+    margin-top: 10px;
 }
 
 .desc-product{
@@ -61,11 +62,10 @@ p {
 }
 
 .product{
-    width: 201px;
+    width: 180px;
     height: 350px;
     display:inline-block;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 
@@ -76,15 +76,16 @@ p {
     height: 30px;
     margin: auto;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .buttom-top {
-
     background:white;
     width: 160px;
     height: 40px;
     color: #888888;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .bottom{
@@ -101,21 +102,31 @@ p {
 
 .box{
     display: inline-block;
-    text-align: left;
+    width: 100%;
+    height: 150px;
+    align-content: center;
     font-size: 12px;
+    border: #888888 1px solid;
 }
 
 .top{
     height: 320px;
 }
 
-.buttom-ainda{
+.buttons-bottom{
     background: white;
     margin-top: 42px;
-    margin-bottom: 164px;
+    margin-bottom: 190px;
     color: #888888;
     width: 8cm;
     height: 30px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
+.formu-box{
+    display: inline-block;
+    width: 370px;
+    height: 150px;
+    text-align: left;
+}
